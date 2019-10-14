@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C9E6BF52354387400D7446A /* UIImageViewAligned.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E6BF42354387400D7446A /* UIImageViewAligned.bundle */; };
+		9C9E6C362354405C00D7446A /* UIImageViewAligned.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E6C352354405C00D7446A /* UIImageViewAligned.bundle */; };
 		9D4F63481C713A1200EFD3CD /* UIImageViewAlignedSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D4F63501C713C9900EFD3CD /* UIImageViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C9E6BF42354387400D7446A /* UIImageViewAligned.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UIImageViewAligned.bundle; sourceTree = "<group>"; };
+		9C9E6C352354405C00D7446A /* UIImageViewAligned.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UIImageViewAligned.bundle; sourceTree = "<group>"; };
 		9D4F63441C713A1200EFD3CD /* UIImageViewAlignedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageViewAlignedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewAlignedSwift.h; sourceTree = "<group>"; };
 		9D4F63491C713A1200EFD3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +31,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C9E6C342354405C00D7446A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C9E6C352354405C00D7446A /* UIImageViewAligned.bundle */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
 		9D4F633A1C713A1200EFD3CD = {
 			isa = PBXGroup;
 			children = (
@@ -50,8 +59,8 @@
 		9D4F63461C713A1200EFD3CD /* UIImageViewAlignedSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9C9E6C342354405C00D7446A /* Resources */,
 				9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */,
-				9C9E6BF42354387400D7446A /* UIImageViewAligned.bundle */,
 				9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */,
 				9D4F63491C713A1200EFD3CD /* Info.plist */,
 			);
@@ -127,7 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C9E6BF52354387400D7446A /* UIImageViewAligned.bundle in Resources */,
+				9C9E6C362354405C00D7446A /* UIImageViewAligned.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
