@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = '*.swift'
   s.frameworks   = 'UIKit'
   s.swift_version = '5.0'
+  s.resources ='UIImageViewAligned/UIImageViewAligned.bundle
 end
