@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78640F9423423EF600EF010E /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 78640F9323423EF600EF010E /* transparent.png */; };
+		9C9E6BF32354357100D7446A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E6BF22354357100D7446A /* Assets.xcassets */; };
 		9D4F63481C713A1200EFD3CD /* UIImageViewAlignedSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D4F63501C713C9900EFD3CD /* UIImageViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		78640F9323423EF600EF010E /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
+		9C9E6BF22354357100D7446A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4F63441C713A1200EFD3CD /* UIImageViewAlignedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageViewAlignedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewAlignedSwift.h; sourceTree = "<group>"; };
 		9D4F63491C713A1200EFD3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,10 +50,10 @@
 		9D4F63461C713A1200EFD3CD /* UIImageViewAlignedSwift */ = {
 			isa = PBXGroup;
 			children = (
-				78640F9323423EF600EF010E /* transparent.png */,
 				9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */,
 				9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */,
 				9D4F63491C713A1200EFD3CD /* Info.plist */,
+				9C9E6BF22354357100D7446A /* Assets.xcassets */,
 			);
 			path = UIImageViewAlignedSwift;
 			sourceTree = "<group>";
@@ -109,6 +109,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 9D4F633A1C713A1200EFD3CD;
@@ -126,7 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78640F9423423EF600EF010E /* transparent.png in Resources */,
+				9C9E6BF32354357100D7446A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
