@@ -31,6 +31,7 @@ public struct UIImageViewAlignmentMask: OptionSet {
     public static let bottomRight: UIImageViewAlignmentMask = [bottom, right]
 }
 
+@available(iOS 13.0, *)
 @IBDesignable
 open class UIImageViewAligned: UIImageView {
     
@@ -240,7 +241,8 @@ open class UIImageViewAligned: UIImageView {
         layer.contents = nil
         if #available(iOS 11, *) {
             super.image = nil
-            let newImage = UIImage(named: "transparent")
+            let bundle = Bundle(identifier: "org.cocoapods.Pods-Uiimageviealign")
+            let newImage = UIImage.init(named: "transparent", in: bundle, with: nil)
             super.image = newImage
         }
     }
