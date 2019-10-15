@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9C6C013823558DDA007B813E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C013723558DD9007B813E /* Media.xcassets */; };
+		9CDBEB88235595EF00F7D101 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CDBEB87235595EF00F7D101 /* transparent.png */; };
 		9D4F63481C713A1200EFD3CD /* UIImageViewAlignedSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D4F63501C713C9900EFD3CD /* UIImageViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C6C013723558DD9007B813E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../../Media.xcassets; sourceTree = "<group>"; };
+		9CDBEB87235595EF00F7D101 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transparent.png; path = ../../transparent.png; sourceTree = "<group>"; };
 		9D4F63441C713A1200EFD3CD /* UIImageViewAlignedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageViewAlignedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewAlignedSwift.h; sourceTree = "<group>"; };
 		9D4F63491C713A1200EFD3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		9D4F63461C713A1200EFD3CD /* UIImageViewAlignedSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9CDBEB87235595EF00F7D101 /* transparent.png */,
 				9C6C013723558DD9007B813E /* Media.xcassets */,
 				9D4F634F1C713C9900EFD3CD /* UIImageViewAligned.swift */,
 				9D4F63471C713A1200EFD3CD /* UIImageViewAlignedSwift.h */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDBEB88235595EF00F7D101 /* transparent.png in Resources */,
 				9C6C013823558DDA007B813E /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
