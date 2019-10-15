@@ -240,8 +240,7 @@ open class UIImageViewAligned: UIImageView {
         layer.contents = nil
         if #available(iOS 11, *) {
             super.image = nil
-            let bundle = Bundle(for: UIImageViewAligned.self)
-            let newImage = UIImage(named: "UIImageViewAligned.bundle/transparent.png", in: bundle, compatibleWith: nil)
+            let newImage = UIImage(named: "transparent")
             super.image = newImage
         }
     }
