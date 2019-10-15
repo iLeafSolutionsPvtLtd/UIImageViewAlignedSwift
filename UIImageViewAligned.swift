@@ -240,9 +240,8 @@ open class UIImageViewAligned: UIImageView {
         // Make sure we clear the contents of this container layer, since it refreshes from the image property once in a while.
         layer.contents = nil
         if #available(iOS 11, *) {
-            super.image = nil
-
-            let newImage = UIImage(named: "transparent.png")
+            let bundle = Bundle.init(for: UIImageViewAligned.self)
+            let newImage = UIImage.init(named: "transparent.png", in: bundle, with: nil)
             super.image = newImage
         }
     }
